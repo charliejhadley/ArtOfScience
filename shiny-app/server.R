@@ -3,9 +3,9 @@ function(input, output, session){
   
   image_reactives <- reactiveValues(image_1 = image_1,
                                     image_2 = image_2,
-                                    image_3 = image_2,
-                                    image_4 = image_2,
-                                    image_5 = image_1)
+                                    image_3 = image_3,
+                                    image_4 = image_3,
+                                    image_5 = image_3)
   
   observeEvent(c(input$implode, input$image_viewer_tab_id),
                {
